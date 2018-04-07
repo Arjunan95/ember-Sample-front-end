@@ -1,0 +1,283 @@
+/* body {
+   
+    background: url(https://rtb-production-eu-userpublic.s3-eu-west-1.amazonaws.com/5252525252/126001/342/51/1/original.jpg?response-content-disposition=inline%3B%20filename%3D%22Image0.jpg%22%3B%20filename%2A%3DUTF-8%27%27Image0.jpg&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20180406T062714Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=AKIAJI7VST5IDYS24VPQ%2F20180406%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=1e51481d866c6e1ee230b269fa37fecc2b2a60a39e8e77fc31470dbdb2600d22); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 45% 30%;  
+    margin-left:500px;
+    
+ } */
+ 
+ .navbar.navbar-inverse {
+   background: #0b1782b5;
+   border: none;
+   margin-bottom: 250px;
+ }
+ 
+ .navbar-brand {
+   position: fixed;
+ }
+ 
+ .navbar-brand:after {
+   content: '';
+   position: absolute;
+   right: -100%;
+   left: -500px;
+   height: 100%;
+   top: 0;
+   z-index: -1;
+   transform: skewX(-45deg);
+ }
+ 
+ .navbar-collapse .navbar-nav {
+   float: none;
+   margin-bottom: 250px;
+ }
+ 
+ @media (max-width: 767px) {
+   .navbar-collapse .navbar-nav {
+     float: none;
+   }
+   .btn-primary {
+       color: #fff;
+       background-color: #337ab7;
+       border-color: #2e6da4;
+       margin-top: 24px;
+   }
+   .btn {
+       display: inline-block;
+       padding: 9px 12px;
+       margin-bottom: 0;
+       font-size: 200px;
+       font-weight: 400;
+       line-height: 1.42857143;
+       text-align: center;
+       white-space: nowrap;
+       vertical-align: middle;
+       -ms-touch-action: manipulation;
+       touch-action: manipulation;
+       cursor: pointer;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+       background-image: none;
+       border: 1px solid transparent;
+       border-radius: 0px;
+       width: -40px;
+       height: 7px;
+       width: 10%;
+       
+   }
+ }
+ table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-right:30px;
+    font-size: 95px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom:15px;
+    text-align: center; 
+
+
+}
+th, td {
+    padding: 5px;
+    text-align: center; 
+
+}
+
+.navbar.navbar-inverse {
+    background: #286090;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    position: fixed;
+  }
+  
+  .navbar-brand:after {
+    content: '';
+    position: absolute;
+    right: -100%;
+    left: -50px;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+    transform: skewX(-45deg);
+  }
+  
+  .navbar-collapse .navbar-nav {
+    float: none;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-collapse .navbar-nav {
+      float: none;
+    }
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        margin-top: 24px;
+    }
+    .btn {
+        display: inline-block;
+        padding: 5px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        width: -40px;
+        height: 77px;
+        width: 100%;
+    }
+  }
+  table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-right:30px;
+    font-size: 95px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom:15px;
+    text-align: center; 
+
+
+}
+th, td {
+    padding: 5px;
+    text-align: center; 
+
+}
+
+.navbar.navbar-inverse {
+    background: #286090;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    position: fixed;
+  }
+  table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-right:30px;
+    font-size: 95px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom:15px;
+    text-align: center; 
+
+
+}
+th, td {
+    padding: 5px;
+    text-align: center; 
+
+}
+
+.navbar.navbar-inverse {
+    background: #286090;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    position: fixed;
+  }
+  .form-signin #inputEmail,
+.form-signin #inputPassword {
+   direction: ltr;
+   height: 44px;
+   font-size: 16px;
+}
+
+.form-signin input[type=email],
+.form-signin input[type=password],
+.form-signin input[type=text],
+.form-signin button {
+   width: 100%;
+   display: block;
+   margin-bottom: 10px;
+   z-index: 1;
+   position: relative;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+   border-color: rgb(104, 145, 162);
+   outline: 0;
+   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+}
+
+.btn.btn-signin {
+   background-color: #4d90fe;
+   background-color: rgb(104, 145, 162);
+   background-color: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+   padding: 0px;
+   font-weight: 700;
+   font-size: 14px;
+   height: 36px;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+   border: none;
+   -o-transition: all 0.218s;
+   -moz-transition: all 0.218s;
+   -webkit-transition: all 0.218s;
+   transition: all 0.218s;
+}
+
+.btn.btn-signin:hover,
+.btn.btn-signin:active,
+.btn.btn-signin:focus {
+   background-color: rgb(12, 97, 33);
+}
+
+.forgot-password {
+   color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover,
+.forgot-password:active,
+.forgot-password:focus{
+   color: rgb(12, 97, 33);
+}
+table, th, td {
+   border: 3px solid black;
+   border-collapse: collapse;
+   margin-right:30px;
+   font-size: 95px;
+   margin-top: 25px;
+   margin-left: 15px;
+   margin-bottom:15px;
+   text-align: center;
+
+
+}
+th, td {
+   padding: 5px;
+   text-align: center;
+
+}

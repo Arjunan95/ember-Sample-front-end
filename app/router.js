@@ -7,6 +7,14 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('screen4');
+  this.route('screen5');
+  this.route('centralpage');
+  this.route('homepage');
+  this.route('statepage');
+  this.route('rationshoppage');
+  this.route('mytranspage');
+  this.route('page1');
 });
 
 export default Router;
