@@ -2,8 +2,8 @@ import Controller from '@ember/controller';
 
 export default Controller.extend({
     actions:{
-        Sumbit:function(){
-            this.transitionToRoute('page2')  
-            
+        signout:function(){
+            this.transitionToRoute('page1')
         }
-        }});
+    }
+        });

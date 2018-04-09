@@ -15,6 +15,7 @@ Router.map(function() {
   this.route('rationshoppage');
   this.route('mytranspage');
   this.route('page1');
+  this.route('page2');
 });
 
 export default Router;

@@ -1,9 +1,18 @@
-<body style="margin-top: 190px;"></body>
+
 
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
 
 <!--
    you can substitue the span of reauth email for a input with the email and
@@ -12,21 +21,19 @@
    <div class="container">
        <div class="card card-container">
            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-           <img id="profile-img" class="profile-img-card" src="images/india.png"/>
-           <h1 style="margin-left: 78px;"align="center"> PUBLIC DISTRIBUTION SYSTEM</h1>
-           <br>
-           <br>
-           
-
-           <p id="profile-name" class="profile-name-card"></p>
-           <form class="form-signin">
-               <span id="reauth-email" class="reauth-email"></span>
-               <input style= "margin-left: 310px;width: 52%" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-               <input style= "margin-left: 310px;width: 52%" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-               <fieldset>
+           <img style="margin-left: 158px;" id="profile-img" class="profile-img-card" src="/assets/india.jpeg"/>
+           <h1 style="margin-left: -280px;width:100%;font-size:80px"align="center"> PUBLIC DISTRIBUTION SYSTEM</h1>
+     
+           <p style="font-size:100px"id="profile-name" class="profile-name-card"></p>
+           <form style="font-size:100px"class="form-signin">
+               <span  id="reauth-email" class="reauth-email"></span>
+               <input style= "margin-left:-219px;;width: 100%;font-size:60px;margin-top:200px;height:128px" type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+               
+               <input style= "margin-left: -219px;;width: 100%;font-size:60px;height:128px" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+               
           <p>
-            <label style= "margin-left: 310px;width: 52%;font-size: x-large;">Select State</label>
-            <select style="margin-left: -410px;font-size: x-large;" id = "myList">
+            <label style= "margin-left:-161px;width:52%;font-size:60px">Select State</label>
+            <select style="margin-left:-208px;font-size:60px" id="myList">
               <option value = "select">select--</option>
                 <option value = "Tamil Nadu">Tamil Nadu</option>
               <option value = "Andhra Pradesh">Andhra Pradesh</option>
@@ -37,17 +44,55 @@
               <option value = "Delhi">Delhi</option>
             </select>
          </p>
-      </fieldset>
-                              <div id="remember" class="checkbox">
-                   <label style="margin-left: 500px;font-size: 17px;">
-                       <input type="checkbox" value="remember-me"> Remember me
+      
+      
+          <div id="remember" class="checkbox">
+                   <label style= "margin-left: 103px;font-size: 60px">
+                       <input style= "font-size:1000px;margin-left: 500px;width:100px"type="checkbox"value= "remember-me"> Remember me
                    </label>
                </div>
                {{!-- {{ <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button> --}}
-           <button style="width: 15%;margin-left: 500px;" type="button" id="myButton" class="btn btn-primary"onClick= {{action "Sumbit"}}>Submit</button>
+           <button style= "width: 45%;margin-left:120px;font-size:60px" type="button" id="myButton"class="btn btn-primary"onClick= {{action "Sumbit"}}>Submit</button>
            </form><!-- /form -->
-           <a style="margin-left: 500px;font-size: 17px;"href="#" class="forgot-password">
+           <a style="margin-left: 125px;font-size: 60px" href="#" class="forgot-password">
                Forgot the password?
            </a>
        </div><!-- /card-container -->
    </div><!-- /container -->
+    <div>
+      
+          {
+<body background="images/download.png;background-repeat:initial">
+   <marquee style="margin-top:-1250px"scrollamount="50"
+direction="up"
+behavior="scroll">
+<img src="assets/agriculturemain.jpg" style= "margin-top:-100px;width:1100px">
+<br>
+<img src="assets/image.jpeg" style= "margin-top:5px;width:1100px">
+<br>
+<img src="assets/fruitvegetables.png" style= "margin-top:25px;width:1100px">
+</marquee>
+        
+</body>
+          }
+
+</div>
+<br>
+<br>
+<br>
+<div>
+<body background="images/download.png;background-repeat:initial">
+   <marquee style="margin-top:-2350px;margin-left:4000px"scrollamount="50"
+direction="up"
+behavior="scroll">
+<img src="assets/ker.jpg" style= "margin-top:-350px;margin-right:845px;width:1069px;height:846px">
+<br>
+<img src="assets/cu.jpeg" style= "margin-top:5px;width:1069px">
+<br>
+<img src="assets/rice.jpeg" style= "margin-top:2px;width:1069px">
+</marquee>
+        
+</body>
+          }
+
+</div>

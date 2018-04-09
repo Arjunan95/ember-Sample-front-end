@@ -281,3 +281,8 @@ th, td {
    text-align: center;
 
 }
+.input[type="checkbox"]{
+  display:inline-block;
+  width:19px;
+  height:19px;
+}
