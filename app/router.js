@@ -16,6 +16,9 @@ Router.map(function() {
   this.route('mytranspage');
   this.route('page1');
   this.route('page2');
+  this.route('central');
+  this.route('state');
+  this.route('ration');
 });
 
 export default Router;

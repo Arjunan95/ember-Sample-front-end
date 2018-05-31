@@ -17,16 +17,11 @@
      <div class="row"style="margin-left:150px">
     <div class="col-sm-4">
            <p id="profile-name" class="profile-name-card"></p>
-           <form class="form-signin
-           
-           
-           
-           
-           ">
-               <span  id="reauth-email" class="reauth-email"></span>
-               <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+           <form class="form-signin">
+            
+               {{input type="email" valueBinding='inputEmail' class="form-control" placeholder="Email address" }}
                
-               <input  type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            {{input  type="password" valueBinding='inputPassword' class="form-control" placeholder="Password" }}
             </form>   
           <p>
             <label >Select State</label>
@@ -41,16 +36,14 @@
               <option value = "Delhi">Delhi</option>
             </select>
          </p>
-      </div>
-      </div>
-      </div>
+    
           <div id="remember" class="checkbox">
                    <label>
                        <input type="checkbox"value= "remember-me"> Remember me
                    </label>
                </div>
                {{!-- {{ <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button> --}}
-           <button  type="button" id="myButton"class="btn btn-primary"onClick= {{action "Sumbit"}}>Submit</button>
+           <button  type="button" id="myButton"class="btn btn-primary" {{action "Submit"}}>Submit</button>
            <!-- /form -->
            <a href="#" class="forgot-password">
                Forgot the password?
@@ -58,36 +51,9 @@
        </div><!-- /card-container -->
    <!-- /container -->
    
-     
-    <div>
+       </div>
+      </div>
+      </div>
+    
       
  
-<body background="images/download.png;background-repeat:initial">
-   <marquee scrollamount="50"
-direction="up"
-behavior="scroll">
-<img src="assets/agriculturemain.jpg" style= "margin-top:-100px;width:1100px">
-<br>
-<img src="assets/image.jpeg" style= "margin-top:5px;width:1100px">
-<br>
-<img src="assets/fruitvegetables.png" style= "margin-top:25px;width:1100px">
-</marquee>
-</body>
-</div>
-<br>
-<br>
-<br>
-<div>
-<body background="images/download.png;background-repeat:initial">
-   <marquee scrollamount="50"
-direction="up"
-behavior="scroll">
-<img src="assets/ker.jpg">
-<br>
-<img src="assets/cu.jpeg" >
-<br>
-<img src="assets/rice.jpeg" >
-</marquee>
-  </body>      
-</div>
-    

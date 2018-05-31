@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{{!-- <div>
+
+    <div class="jumbotron text-center">
+
+</div>
+   --}}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        <div class="Jumbotron">
+<body>
+<h1 style="margin-right:100px;font-size: 60px;margin-top:15px;margin-left: 300px;margin-bottom:20px">Central Government</h1>
+
+
+<h2 style="margin-right:30px;font-size: 40px;margin-top: 35px;margin-left: 40px">Stocks Available(in kg/lit)</h2>
+
+<form>
+  Rice:
+  {{input type="number" valueBinding='rice' class="form-control" placeholder="rice" }}
+  <br>
+<br>
+  
+  Wheat:
+  <input type='number' valueBinding='wheat' name='wheat'>
+<br>
+<br>
+  Kerosene:
+  <input type='number' valueBinding='kerosene'name='kerosene'>
+  <br>
+  <br>
+  <h2 style="margin-right:30px;font-size: 40px;margin-top: 35px;margin-left: 40px">Stocks Allocation(in kg/lit)</h2>
+
+</form>
+<br>
+ <select style="font-size: 25px">
+     <option value="volvo">Select state</option>
+    <option value="volvo">ANDHRA PRADESH</option>
+    <option value="saab">TAMIL NADU</option>
+    <option value="fiat">KERALA</option>
+    <option value="audi">KARNATAKA</option>
+  </select>
+  
+<form>
+    <br>
+    <div>
+   
+    <input type="date" id="party" name="party" min="2017-apr-01" max="2030-apr-20" required>
+    <span class="validity"></span>
+  </div>
+  <br>
+  Rice:
+  <input type='number' valueBinding='rice' name='rice'>
+  <br>
+<br>
+  
+  Wheat:
+  <input type="number" valueBinding='wheat' name="wheat">
+<br>
+<br>
+  Kerosene:
+  <input type='number' valueBinding='kerosene' name='kerosene'>
+  <br>
+
+</form>
+ <br>
+  <br>
+  <button  type="button" id="myButton"class="btn btn-primary" {{action "Submit"}}>Submit</button>
+</body>
+</div>
+</div>
+</div>
+</div>
